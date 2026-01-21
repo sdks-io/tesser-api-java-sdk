@@ -13,12 +13,12 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>io.consensys</groupId>
   <artifactId>tesser-api-sdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://central.sonatype.com/artifact/io.consensys/tesser-api-sdk/1.0.0
+https://central.sonatype.com/artifact/io.consensys/tesser-api-sdk/1.0.2
 
 ## Test the SDK
 
@@ -32,14 +32,14 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
-| bearerAuthCredentials | [`BearerAuthCredentials`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/auth/oauth-2-bearer-token.md) | The Credentials Setter for OAuth 2 Bearer token |
+| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| bearerAuthCredentials | [`BearerAuthCredentials`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/auth/oauth-2-bearer-token.md) | The Credentials Setter for OAuth 2 Bearer token |
 
 The API client can be initialized as follows:
 
@@ -68,44 +68,44 @@ public class Program {
 
 This API uses the following authentication schemes.
 
-* [`bearer (OAuth 2 Bearer token)`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/auth/oauth-2-bearer-token.md)
+* [`bearer (OAuth 2 Bearer token)`](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/auth/oauth-2-bearer-token.md)
 
 ## List of APIs
 
-* [Payments](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/payments.md)
-* [Health](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/health.md)
-* [Accounts](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/accounts.md)
-* [Currencies](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/currencies.md)
-* [Counterparties](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/counterparties.md)
-* [Tenants](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/tenants.md)
-* [Networks](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/networks.md)
-* [Experimental](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/experimental.md)
-* [Treasury](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/controllers/treasury.md)
+* [Payments](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/payments.md)
+* [Health](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/health.md)
+* [Accounts](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/accounts.md)
+* [Currencies](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/currencies.md)
+* [Counterparties](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/counterparties.md)
+* [Tenants](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/tenants.md)
+* [Networks](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/networks.md)
+* [Experimental](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/experimental.md)
+* [Treasury](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/controllers/treasury.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [Configuration Interface](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-client-configuration-builder.md)
-* [HttpProxyConfiguration](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-proxy-configuration.md)
-* [HttpProxyConfiguration.Builder](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-proxy-configuration-builder.md)
+* [Configuration Interface](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-client-configuration-builder.md)
+* [HttpProxyConfiguration](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-proxy-configuration.md)
+* [HttpProxyConfiguration.Builder](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-proxy-configuration-builder.md)
 
 ### HTTP
 
-* [Headers](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/headers.md)
-* [HttpCallback Interface](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-callback-interface.md)
-* [HttpContext](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-body-request.md)
-* [HttpRequest](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-request.md)
-* [HttpResponse](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/http-string-response.md)
+* [Headers](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/headers.md)
+* [HttpCallback Interface](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-callback-interface.md)
+* [HttpContext](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-body-request.md)
+* [HttpRequest](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-request.md)
+* [HttpResponse](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/api-helper.md)
-* [FileWrapper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/file-wrapper.md)
-* [DateTimeHelper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.0/doc/date-time-helper.md)
+* [ApiException](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/api-helper.md)
+* [FileWrapper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/file-wrapper.md)
+* [DateTimeHelper](https://www.github.com/sdks-io/tesser-api-java-sdk/tree/1.0.2/doc/date-time-helper.md)
 
