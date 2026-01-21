@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.consensys</groupId>
   <artifactId>tesser-api-sdk</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>jar</packaging>
   <name>Tesser-API SDK</name>
   <description>Tesser API SDK</description>
